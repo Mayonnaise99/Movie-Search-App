@@ -1,0 +1,45 @@
+/* index.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(104,132,179)
+}
+
+.App {
+    text-align: center;
+    margin: 20px;
+}
+
+.movie-search input {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.movie-search button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.movie-search button:hover {
+    background-color: #0056b3;
+}
+
+.movie-results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.movie-card {
+    background-color: #f3f3f3;
+    padding: 20px;
+    border-radius: 10px;
+}
